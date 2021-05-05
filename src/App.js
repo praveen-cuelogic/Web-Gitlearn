@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import UseState from "./UseState";
-//import Counters from "./components/counters";
+import Counters from "./components/counters";
 import axios from "axios";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
@@ -114,7 +114,7 @@ class App extends Component {
         </Router>
         <ES6feature />
         <Login />
-        {/* <ul>
+        <ul>
           { this.state.posts.map(user => <li>{user.name}</li>)}
         </ul>
 
@@ -130,7 +130,7 @@ class App extends Component {
             onDelete={this.handleDelete}
             onRestart={this.handleRestart}
           />
-        </main> */}
+        </main>
       </div>
     );
   }
