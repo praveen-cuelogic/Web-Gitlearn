@@ -75,8 +75,6 @@ class App extends Component {
     return (
       <div>
         <h1>PG Coming</h1>
-        <h1>Changed by PK</h1>
-        <h2>Added By PG</h2>
         <Memo name="US" /> <br />
         <ListMap />
         ----------------------
