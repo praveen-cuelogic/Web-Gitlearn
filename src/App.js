@@ -76,6 +76,8 @@ class App extends Component {
       <div>
         <h1>PG Coming</h1>
         <h1>Changed by PK</h1>
+
+        <p>Test</p>
         <Memo name="US" /> <br />
         <ListMap />
         ----------------------
