@@ -74,6 +74,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <h1>PG</h1>
         <Memo name="US" /> <br />
         <ListMap />
         ----------------------
